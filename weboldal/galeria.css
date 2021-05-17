@@ -1,0 +1,118 @@
+/* NEPTUNKÓD: MDFMCY
+NÉV:MÉSZÁROS Szabolcs
+KURZUSKÓD:BMEGEMIBXGI */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.menusav {
+    position: fixed;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat (4, 1fr);
+    gap: 4vH;
+    background-color: black;
+    background-attachment: fixed;
+    height: 8vH;
+    display: flex;
+    position: cover;
+}
+
+.nev {
+    padding-left: 8vH;
+    padding-right: 2vH;
+    position: absolute;
+    padding-top: 0.65vh;
+    /* color: #51bfff; */
+    color: black;
+    font-style: oblique;
+    font-size: 6vH;
+    text-shadow: 0vH 0vH 0.1vH purple, 0vH 0.2vH 0.4vH purple, 0vH 0.4vH 0.8vH purple;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.kepmeret {
+    padding: 0;
+    margin: 0;
+    height: 8vH;
+    width: 8vH;
+}
+
+.elsomenupont {
+    margin-left: 15vH;
+    background-image: url(kepek/textbgr2.jpg);
+    background-size: contain;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    padding-top: 3vH;
+    font-size: 2vH;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+}
+
+.menupont {
+    background-image: url(kepek/textbgr2.jpg);
+    background-size: contain;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 2vH;
+    padding-top: 3vH;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+}
+
+.elsomenupont:hover {
+    background-image: url(kepek/weblaphatter\ 2.0.masodlagos.png);
+    transition-duration: 0.35s;
+    border-bottom: 5px solid;
+    border-color: aqua;
+}
+
+.menupont:hover {
+    background-image: url(kepek/weblaphatter\ 2.0.masodlagos.png);
+    transition-duration: 0.35s;
+    border-bottom: 5px solid;
+    border-color: aqua;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #fff;
+    box-shadow: 0 0 15 px blue;
+    box-sizing: border-box;
+}
+
+.keptartalom {
+    column-count: 4;
+    max-width: 80vw;
+    margin: 0 auto;
+    background-image: url(kepek/weblaphatter\ 2.0.png);
+    padding: 10vh;
+    box-shadow: 0 0 10px black, 0 0 40px black, 0 0 80px black, 0 0 160px black, 0 0 320px black;
+}
+
+.lablec {
+    background-color: black;
+    height: 15vH;
+    padding-top: 10vH;
+}
+
+.lablecbetuk {
+    font-family: 'Anton', sans-serif;
+    color: #4F0000;
+    text-align: Center;
+    font-size: 0.7vW;
+    font-style: initial;
+}

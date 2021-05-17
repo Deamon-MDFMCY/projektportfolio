@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- NEPTUNKÓD: MDFMCY
+NÉV:MÉSZÁROS Szabolcs
+KURZUSKÓD:BMEGEMIBXGI -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Járművek" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dokumentacio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <title>DEAMON-Dokumentáció</title>
+</head>
+
+<body>
+    <div class="menusav">
+        <img class="kepmeret" src="kepek/bikalogo.png">
+        <div class="nev">
+            Deamon
+        </div>
+        <a href="index.html" class="elsomenupont">
+            Főoldal
+        </a>
+
+        <a href="galeria.html" class="menupont">
+            Galéria
+        </a>
+        <a href="jarmuvek.html#elso" class="menupont">
+            Járművek
+        </a>
+        <a href="dokumentacio.html" class="menupont">
+            Dokumentáció
+        </a>
+    </div>
+    <div class="tartalom">
+        <h1> Dokumentáció</h1>
+        <p>A feladat megoldása természetesen azzal kezdődött, hogy megnéztem a rendelkezésre álló mintamunkákat. Ezt követően megpróbáltam papírra rajzolni a weboldalam elképzelését. Ezt a megközelítést az első rossz helyre húzott/nem tetsző vonalnál vágtam
+            a kukába. Személy szerint sokkal jobban szeretem a design részét útközben alakítani. Alap-elképzelést természetesen állítottam magamban. Főoldalnak egy letisztult design-t akartam létrehozni, megihletődve "mrsuicidesheep" weboldalán.
+        </p>
+        <img src="kepek/sheep.jpg">
+        <p>Nagyjából ekkor raktam össze fejben, hogy pontosan mit is szeretnék. Megpróbáltam kihegyezni a témát az E-sport-ra, mindíg is ki akartam próbálni, hogy nagyjából mit lehetne kihozni belőlem ebben a témában. Rengeteg videót néztem meg youtuberól
+            minden féle témákban, kezdve a reszponzivitástól, a világító háttéren át, a szöveget kitöltő háttérképig, gyakorlatilag majdnem mindent el tudtam készíteni olyanra, amilyenre első elképzelésre szerettem volna. Rengetegszer egyszerűen bruteforceoltam
+            a kódot, vagyis addig írogattam át, vagy iteráltam át a lehetőségeken, amég azt nem adta pontosan, amit szerettem volna. Persze egyre jobban ment, úgyhogy miután megértettem nagyjából, mi-mit-miért csinál, ez az idő jelentősen lecsökkent.
+            A második oldal amit elkészítettem, a járművek felület volt. Itt is sejtettem mit szeretnék. Már tudtam, hogy milyen módszerekkel lehet felosztani a területet. A menüsávval azonban megkínlódtam egy kicsit, főként a logó-kép miatti eltolás
+            miatt. Bruteforce-al meglett.... Itt belevittem egy kis egyediséget, azt szerettem volna, hogy a betűk ne egyszínűek legyenek. Erre voltak nevetséges metódusok (például egy olyan ami eltüntette a fekete színt az oldalról, és valójában annak
+            átlátszóságával készített hátteret???????? [működött, de RIP fekete színek, nem felelt meg]), majd belebotlottam a kódomban megtalálható, egyszerűen használható transparent-funkcióba. Szépen működött. Szintén ezen az oldalon merült fel az
+            utolsó nagyobb problémám, az pedig az volt, hogy az anchor kártyák a főmenü miatt rossz helyre pozícionáltak. Itt is rengeteg dolgot kipróbáltam, amég egy mókolt megoldással egyszerűen csak lejjeb toltam a legfelső kártya kezdőpontját. (Látható,
+            ha belépünk az oldalra a menü gombal, akkor a Leírás egy kicsit lejjebb van, mintha a leírás gombal értük volna el. Ez azonban az átlag felhasználó számára nem nagyon tűnik fel, mivel nincs azonnali viszonyítási alap, majd miután a választó
+            kártyákkal navigált, a probléma megszűnik gyakorlatilag. Ja és nem szeretik a választókártyák, ha közben görgetünk.) A Galéria elkészítése (valamint az éppen készülő dokumentáció) oldala könnyen elkészíthető volt, igaz nem is fektettem bele
+            azt a temérdek energiát, amit a Főoldal és Járművek részbe. A kódolás azonban csak a játék fele volt. A másik felét a photoshop és képszerkesztések tették ki. Igyekeztem minél több egyedi képet használni. Ilyenek voltak a hátterek:
+        </p>
+        <img src="kepek/weblaphatter 2.0.png" class="kepalak">
+        <img src="kepek/weblaphatter 2.0.masodlagos.png" class="kepalak">
+        <img src="kepek/bikalogo.png" class="kiskep">
+        <img src="kepek/textbgr2.jpg" class="kiskep">
+        <img src="kepek/weblaphatter2.3.png" class="kiskep">
+        <p>
+            Valamint eredetileg a járműkártyáknál egyszerű "piktogram" szerű, letisztult ábrázolások lettek volna, de miután megpróbáltam kikörvonalazni a formula 3-as autó képét, inkább sírtam egyet magamban és elvetettem az ötletet. Ezt inkább még meghagyom a művészeknek
+            egyelőre:
+            <img src="kepek/f3kep.gif">
+        </p>
+        <p>
+            A projekt érdekes volt, több időt öltem bele mint eredetileg szerettem volna, bár ez a saját elvárásaimnak köszönhetően alakult így, amit sajnos még így sem tudtam elérni. Viszont legalább megtanultam a photoshop alapvető kezelését is amellett, hogy lett
+            egy kis rálátásom a html-css kódok használatára is, valamint meglepően érdekes dolgokat lehet elérni javascript nélkül is, amire nem számítottam. A feladatot nagyrészt élveztem, bár örülök hogy elkészült, mert őszintén a vége felé már nyűgös
+            voltam miatta.
+        </p>
+        <p class="alairas"> Mészáros Szabolcs</p>
+
+
+    </div>
+
+
+
+
+
+
+    <footer class="lablec">
+        <div class="lablecbetuk"> Készítette: Mészáros Szabolcs </div>
+        <div class="lablecbetuk"> A projekt a BME Gépészmérnöki kar Gépészeti Informatika Projektfeladatára készült! </div>
+
+    </footer>
+</body>
+
+</html>

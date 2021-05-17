@@ -1,0 +1,182 @@
+/* NEPTUNKÓD: MDFMCY
+NÉV:MÉSZÁROS Szabolcs
+KURZUSKÓD:BMEGEMIBXGI */
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-color: Black;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menusav {
+    position: fixed;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat (4, 1fr);
+    gap: 4vH;
+    background-color: black;
+    background-attachment: fixed;
+    height: 8vH;
+    display: flex;
+    position: cover;
+}
+
+.nev {
+    padding-left: 8vH;
+    padding-right: 2vH;
+    position: absolute;
+    padding-top: 0.65vh;
+    /* color: #51bfff; */
+    color: black;
+    font-style: oblique;
+    font-size: 6vH;
+    text-shadow: 0vH 0vH 0.1vH purple, 0vH 0.2vH 0.4vH purple, 0vH 0.4vH 0.8vH purple;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.kepmeret {
+    padding: 0;
+    margin: 0;
+    height: 8vH;
+    width: 8vH;
+}
+
+.elsomenupont {
+    margin-left: 15vH;
+    background-image: url(kepek/textbgr2.jpg);
+    background-size: contain;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    padding-top: 3vH;
+    font-size: 2vH;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+}
+
+.menupont {
+    background-image: url(kepek/textbgr2.jpg);
+    background-size: contain;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 2vH;
+    padding-top: 3vH;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+}
+
+.elsomenupont:hover {
+    background-image: url(kepek/weblaphatter\ 2.0.masodlagos.png);
+    transition-duration: 0.35s;
+    border-bottom: 5px solid;
+    border-color: aqua;
+}
+
+.menupont:hover {
+    background-image: url(kepek/weblaphatter\ 2.0.masodlagos.png);
+    transition-duration: 0.35s;
+    border-bottom: 5px solid;
+    border-color: aqua;
+}
+
+.jarmuvalaszto {
+    position: fixed;
+    margin-top: 8vh;
+    background-image: url(kepek/weblaphatter\ 2.0.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 25vW;
+    height: 100vH;
+    background-color: black;
+}
+
+.kartya {
+    grid-template-rows: repeat(3, 1fr);
+    border: 2px solid black;
+    border-color: aqua;
+    text-align: center;
+    /* padding-bottom: 12vh; */
+    color: whitesmoke;
+    font-size: 6vH;
+    /*     text-shadow: 0vH 0vH 0.1vH purple, 0vH 0.2vH 0.4vH purple, 0vH 0.4vH 0.8vH purple; */
+    font-family: 'Bebas Neue', cursive;
+}
+
+.kartya:hover {
+    color: black;
+    background-color: whitesmoke;
+    background-size: cover;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    transition-duration: 0.5s;
+}
+
+.tartalomsav {
+    padding-top: 8vH;
+    padding-left: 25vW;
+}
+
+.ismertetok {
+    grid-template-rows: repeat (4, 1f);
+    min-height: 100vh;
+    box-shadow: 0 0 10px black, 0 0 40px black, 0 0 80px black, 0 0 160px black, 0 0 320px black;
+}
+
+#elso {
+    background-image: url(kepek/bemuthatter.png);
+    background-size: cover;
+}
+
+#masodik {
+    background-image: url(kepek/f3hatter.png);
+    background-size: cover;
+}
+
+#harmadik {
+    background-image: url(kepek/audihatter.png);
+    background-size: cover;
+}
+
+#negyedik {
+    background-image: url(kepek/mazdahatter.png);
+    background-size: cover;
+}
+
+.infokartya {
+    padding-top: 8vh;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 10Vh;
+}
+
+.szovegkartya {
+    font-size: 5vH;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    width: 95%;
+    -webkit-text-stroke: 0.3vH black;
+    text-align: justify;
+    border-radius: 1vW;
+    margin: 1vw;
+    padding: 1vW;
+    min-height: 70vh;
+    box-shadow: 0 0 10px black, 0 0 40px black, 0 0 80px black, 0 0 160px black, 0 0 320px black;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.jarmukepmeret {
+    height: 18vh;
+    width: 15vw;
+}

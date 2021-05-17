@@ -1,0 +1,125 @@
+/* NEPTUNKÓD: MDFMCY
+NÉV:MÉSZÁROS Szabolcs
+KURZUSKÓD:BMEGEMIBXGI */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(kepek/weblaphatter204.png);
+    background-repeat: no-repeat;
+}
+
+ ::-webkit-scrollbar {
+    display: none;
+}
+
+.tabla {
+    display: grid;
+    grid-template-columns: minmax(20vW, 30vW) minmax(20vW, 50vW);
+    grid-template-rows: minmax(15vH, 40vH) minmax(30vH, 40vH);
+    padding: 0;
+    margin: 0;
+}
+
+.kozepdoboz {
+    grid-column: 2/2;
+    grid-row: 2/2;
+}
+
+.haromd {
+    text-align: right;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20vW;
+    font-weight: bolder;
+    color: black;
+    text-shadow: 1px 1px 1px #2E092E, 1px 2px 1px #2E092E, 1px 3px 1px #2E092E, 1px 4px 1px #2E092E, 1px 5px 1px #2E092E, 1px 6px 1px #2E092E, 1px 7px 1px #2E092E, 1px 8px 1px #2E092E, 1px 9px 1px #2E092E, 1px 10px 1px #2E092E, 1px 18px 6px rgba(58, 0, 58, 0.4), 1px 22px 10px rgba(58, 0, 58, 0.2), 1px 25px 35px rgba(58, 0, 58, 0.2), 1px 30px 60px rgba(58, 0, 58, 0.4);
+}
+
+.haromd:hover {
+    text-shadow: 1px 1px 1px #D50000, 1px 2px 1px #D50000, 1px 3px 1px #D50000, 1px 4px 1px #D50000, 1px 5px 1px #D50000, 1px 6px 1px #D50000, 1px 7px 1px #D50000, 1px 8px 1px #D50000, 1px 9px 1px #D50000, 1px 10px 1px #D50000, 1px 18px 6px rgba(58, 0, 58, 0.4), 1px 22px 10px rgba(58, 0, 58, 0.2), 1px 25px 35px rgba(58, 0, 58, 0.2), 1px 30px 60px rgba(58, 0, 58, 0.4);
+    transition-duration: 1.5s;
+}
+
+.nevsav {
+    text-align: right;
+    font-size: 3vW;
+    font-family: 'Anton', sans-serif;
+    font-weight: 2vW;
+    text-shadow: 0.7vW 0.7vW 0.7vW black, 0.7vW 0.7vW 0.7vW #2E092E;
+    color: whitesmoke;
+    font-style: oblique;
+}
+
+.talcaablak {
+    background-image: url(kepek/audibg.png);
+    background-size: cover;
+    height: 100vH;
+    margin-top: 20vH;
+}
+
+.oldalvalaszto {
+    display: grid;
+    grid-template-columns: minmax(1vW, 2vW) minmax(1vW, 2vW) minmax(1vW, 2vW);
+}
+
+.lablec {
+    background-color: black;
+    height: 15vH;
+    padding-top: 10vH;
+}
+
+.lablecbetuk {
+    font-family: 'Anton', sans-serif;
+    color: #4F0000;
+    text-align: Center;
+    font-size: 0.7vW;
+    font-style: initial;
+}
+
+.kartyak {
+    /* padding: 2vH; */
+    padding-top: 20vH;
+    margin: 15vH;
+    min-height: 70vH;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5vH;
+    font-family: 'Anton', sans-serif;
+}
+
+.kartya {
+    text-decoration: none;
+    margin-top: 4vH;
+    justify-self: center;
+    max-width: 10vH;
+    min-width: 40vH;
+    border-radius: 1vW;
+    box-shadow: 0.35vW 0.35vW 0.35vW black, 0vW 1vW 2vW #8E0000, 1vW 4vW 4vW black;
+    opacity: 0.75;
+    background-image: url(kepek/weblaphatter\ 2.0.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.kartyatartalom {
+    color: Black;
+    transform: rotate(-90deg);
+    font-size: 7vH;
+    margin-top: 20vH;
+}
+
+.kartya:hover {
+    color: #255784;
+    background-image: url(kepek/weblaphatter\ 2.0.masodlagos.png);
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    transition-duration: 0.3s;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* .kartyaalja {} */
